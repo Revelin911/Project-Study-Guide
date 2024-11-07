@@ -6,19 +6,20 @@ function listTopics() {
   }
 }
 function selectTopic() {
-  const topics = "HTML";
-  if (topics === "HTML") {
+  // const topics = "HTML";
+  if (topics === 'HTML') {
     console.log("Let's study HTML!");
-  } else if (topics === "CSS") {
+  } else if (topics === 'CSS') {
     console.log("Let's study CSS!");
-  } else if (topic === "Git") {
+  } else if (topics === 'Git') {
     console.log("Let's study Git!");
-  } else if (topic === "Javascript") {
+  } else if (topics === 'Javascript') {
     console.log("Let's study Javascript!");
   } else {
-    console.log("Please try again!");
+    console.log('Please try again!');
   }
 }
+listTopics()
 
 //   const shapes = ["triangle", "square", "pentagon", "circle"];
 //   for (let x = 0; x < shapes.length; x++) {
